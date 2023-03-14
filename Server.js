@@ -9,7 +9,7 @@ const productadd = require("./Src/Routes/adminRoute");
 
 //Middleware;
 App.use(express.json());
-App.use(cors({ origin: "*" }));
+App.use(cors({ origin: "https://polite-sprinkles-842ebe.netlify.app" }));
 
 //Route Controller;
 App.use("/", User);
