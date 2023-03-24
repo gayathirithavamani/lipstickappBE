@@ -9,7 +9,7 @@ const productadd = require("./Src/Routes/adminRoute");
 
 //Middleware;
 App.use(express.json());
-App.use(cors({ origin: "https://symphonious-heliotrope-eb4f9f.netlify.app/" }));
+App.use(cors({ origin: "https://symphonious-heliotrope-eb4f9f.netlify.app" }));
 
 //Route Controller;
 App.use("/", User);
