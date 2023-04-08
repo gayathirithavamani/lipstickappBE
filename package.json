@@ -10,7 +10,7 @@
     "start": "node Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirubaharan M",
+  "author": " GAYATHIRI T",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
